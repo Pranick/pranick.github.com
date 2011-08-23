@@ -11,8 +11,8 @@ title: Pranick is a web developer specialized in WordPress
 	var g = document.getElementById('g'),
 		t = document.getElementById('t'),
 		e = document.getElementById('e');
-	g.onclick = _gaq.push(['_trackEvent','Links','GitHub profile']);
-	t.onclick = _gaq.push(['_trackEvent','Links','Twitter profile']);
-	e.onclick = _gaq.push(['_trackEvent','Links','Email me']);
+	g.onclick = function() { _gaq.push(['_trackEvent','Links','GitHub profile']); };
+	t.onclick = function() { _gaq.push(['_trackEvent','Links','Twitter profile']); };
+	e.onclick = function() { _gaq.push(['_trackEvent','Links','Email me']); };
 	})();
 </script>
