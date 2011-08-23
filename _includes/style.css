@@ -1,10 +1,13 @@
+html {
+	padding: 1em;
+}
 body {
 	background: white url(images/subtle_freckles.jpg) 0 0 repeat fixed;
 	font: 1.5em / 1.3 Neuton, Georgia, serif;
 	margin: auto;
-	padding: 1em;
 	text-shadow: 1px 1px rgba(0,0,0,.1);
 	width: 20em;
+	max-width: 90%;
 }
 .c2a {
 	background: -webkit-gradient( linear, 0 0, 0 100%, from( #d00 ), to( #900 ) );
