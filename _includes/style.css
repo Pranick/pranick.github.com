@@ -51,6 +51,3 @@ body {
 	font: .5em / 1 sans-serif;
 	text-shadow: none;
 }
-::selection {
-	background-color: darkgreen;
-}
