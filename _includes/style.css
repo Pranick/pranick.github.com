@@ -12,6 +12,20 @@ body {
 p {
 	margin: 1.5em 0;
 }
+a {
+	border-bottom: 1px solid;
+	color: #3966c6;
+	text-decoration: none;
+	   -moz-transition: all 150ms ease-out;
+	    -ms-transition: all 150ms ease-out;
+	     -o-transition: all 150ms ease-out;
+	-webkit-transition: all 150ms ease-out;
+	        transition: all 150ms ease-out;
+}
+a:hover {
+	background: #3966c6;
+	color: #fff;
+}
 .c2a {
 	background: #d00;
 	background: -webkit-gradient( linear, 0 0, 0 100%, from( #d00 ), to( #900 ) );
