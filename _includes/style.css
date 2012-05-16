@@ -27,44 +27,11 @@ a:hover {
 	color: #fff;
 }
 .c2a {
-	background: #d00;
-	background: -webkit-gradient( linear, 0 0, 0 100%, from( #d00 ), to( #900 ) );
-	background:    -moz-linear-gradient( #d00, #900 );
-	background:     -ms-linear-gradient( #d00, #900 );
-	background:      -o-linear-gradient( #d00, #900 );
-	background: -webkit-linear-gradient( #d00, #900 );
-	background:         linear-gradient( #d00, #900 );
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#dd0000', EndColorStr='#990000');
-	   -moz-border-radius: .7em;
-	-webkit-border-radius: .7em;
-	        border-radius: .7em;
-	   -moz-box-shadow: inset 0 .05em red, 0 -.05em #c00, 0 .1em .3em rgba(0,0,0,.3);
-	-webkit-box-shadow: inset 0 .05em red, 0 -.05em #c00, 0 .1em .3em rgba(0,0,0,.3);
-	        box-shadow: inset 0 .05em red, 0 -.05em #c00, 0 .1em .3em rgba(0,0,0,.3);
-	color: white;
-	display: block;
-	text-align: center;
-	text-decoration: none;
-	text-shadow: 0 -1px rgba(0,0,0,.3), 0 1px rgba(255,255,255,.4);
-	padding: .5em;
+	background: #3966c6;
+	color: #fff;
+	font: .5em sans-serif;
+	padding: .5em 1em;
 }
 .c2a:hover {
-	background: #e00;
-	background: -webkit-gradient( linear, 0 0, 0 100%, from( #e00 ), to( #b30000 ) );
-	background:    -moz-linear-gradient( #e00, #b30000 );
-	background:     -ms-linear-gradient( #e00, #b30000 );
-	background:      -o-linear-gradient( #e00, #b30000 );
-	background: -webkit-linear-gradient( #e00, #b30000 );
-	background:         linear-gradient( #e00, #b30000 );
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ee0000', EndColorStr='#b30000');
-	   -moz-box-shadow: inset 0 .05em red, 0 -.05em #c00, 0 0 .3em rgba(0,0,0,.5);
-	-webkit-box-shadow: inset 0 .05em red, 0 -.05em #c00, 0 0 .3em rgba(0,0,0,.5);
-	        box-shadow: inset 0 .05em red, 0 -.05em #c00, 0 0 .3em rgba(0,0,0,.5);
-	color: white;
-}
-.c2a .hello {
-	color: #300;
-	display: block;
-	font: .5em / 1 sans-serif;
-	text-shadow: none;
+	box-shadow: 0 2px 3px rgba(0,0,0,.3);
 }
